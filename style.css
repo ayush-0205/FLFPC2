@@ -171,3 +171,31 @@ footer {
 .medium-image {
   height: 300px;
 }
+
+/* extra css */
+
+.large-image,
+.medium-image {
+  width: 100%;
+  position: relative;
+  background-color: #cccccc;
+  border-radius: 8px;
+  margin: 40px 0;
+  overflow: hidden;
+}
+
+.large-image {
+  height: 400px;
+}
+
+.medium-image {
+  height: 300px;
+}
+
+.large-image img,
+.medium-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
